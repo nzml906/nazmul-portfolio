@@ -1,0 +1,293 @@
+.portfolio-container {
+  background: $page-grey;
+
+  &__head {
+    color: $page-white;
+    display: block;
+    width: 100%;
+    padding-top: 7rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: $font-Montserrat;
+
+    @include desktop {
+      padding-top: 14rem;
+      font-size: 2rem;
+    }
+  }
+
+  &__desk {
+    display: none;
+
+    @include desktop {
+      display: block;
+      width: 100%;
+
+      &__container {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(auto-fit, 400px);
+        grid-row-gap: 10rem;
+        justify-items: center;
+        align-items: center;
+        padding: 3rem 0 8rem 0;
+
+        .Desk-Folio-Item {
+          display: flex;
+          width: 90%;
+          justify-content: space-around;
+          align-items: center;
+
+          .Desk-folio-image {
+            max-width: 540px;
+            height: 100%;
+            border-bottom: 1px solid $page-orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3rem;
+            position: relative;
+
+            .lazy-img {
+              width: 100%;
+            }
+
+            .img-overlay {
+              position: absolute;
+              width: 100%;
+              top: 0;
+              right: 0;
+              left: 0;
+              bottom: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: white;
+              font-size: 3.5rem;
+              text-transform: capitalize;
+              text-align: center;
+              font-weight: 600;
+              background: rgba(0, 0, 0, 0.8);
+              opacity: 0;
+              transition: 0.1s ease-in;
+              letter-spacing: 2px;
+            }
+            &:hover {
+              cursor: pointer;
+              .img-overlay {
+                opacity: 1;
+              }
+            }
+          }
+
+          .Desk-folio-description {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid $page-orange;
+
+            .details {
+              text-align: center;
+              color: $page-white;
+              font-size: 2.2rem;
+              font-weight: 400;
+              opacity: 1;
+              padding: 0 40px;
+              margin-bottom: 1.6rem;
+              cursor: pointer;
+            }
+
+            .name {
+              text-align: center;
+              color: $page-orange;
+              font-size: 4rem;
+              font-weight: 800;
+              text-transform: capitalize;
+              opacity: 1;
+              padding: 10px 40px;
+              letter-spacing: 2px;
+              cursor: pointer;
+            }
+
+            .skills-span {
+              margin-top: 10px;
+              text-align: center;
+              font-size: 1.8rem;
+              color: $page-white;
+
+              font-weight: 200;
+              opacity: 1;
+              padding: 0 40px;
+              line-height: 3rem;
+            }
+          }
+        }
+
+        @for $i from 0 through 4 {
+          .Desk-Folio-Item[data-index='#{$i + $i}'] {
+            flex-direction: row-reverse;
+          }
+        }
+      }
+    }
+  }
+
+  &__mobile {
+    padding: 40px 1%;
+
+    @include tablet {
+      padding: 4rem 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-gap: 2rem;
+    }
+    @include desktop {
+      display: none;
+    }
+    &--item {
+      width: 100%;
+      height: 48rem;
+      padding: 0.5rem 0.5rem 4.5rem 0.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @include tablet {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+      }
+      @include desktop {
+        display: none;
+      }
+      &--img {
+        width: 100%;
+        border-radius: 2px;
+        .lazy-img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &--links {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        line-height: 2.5rem;
+        .details {
+          text-align: center;
+          color: $page-white;
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin-top: 20px;
+        }
+        .name {
+          text-align: center;
+          color: $page-orange;
+          font-size: 2.6rem;
+          font-weight: 600;
+          text-transform: capitalize;
+          line-height: 3rem;
+          padding: 10px 0px;
+        }
+        .skills-span {
+          text-align: center;
+          font-size: 1.4rem;
+          color: $page-white;
+
+          font-weight: 200;
+        }
+      }
+      &--btn {
+        // background-color: red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        animation: modalDataAppear 0.5s ease-in-out forwards;
+        animation-delay: 1.5s;
+        font-family: $font-Montserrat;
+
+        .mobileProBtn {
+          margin-bottom: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 0.6rem;
+
+          width: 25rem;
+          font-size: 1.4rem;
+          letter-spacing: 1.5px;
+          color: rgba($color: $page-white, $alpha: 0.7);
+          padding: 1rem 1rem;
+          background: none;
+          border: 1px solid rgba($color: $page-orange, $alpha: 0.7);
+
+          transition: 0.2s ease-in-out;
+          text-transform: capitalize;
+          .mobileProBtn-icon {
+            margin-right: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.v-lazy-image {
+  filter: blur(10px);
+  transition: filter 0.7s;
+}
+.v-lazy-image-loaded {
+  filter: blur(0);
+}
+
+//
+@keyframes fadeDownWorks {
+  0% {
+    opacity: 0;
+    color: $white2-color;
+    transform: translateY(-40px);
+  }
+  35% {
+    opacity: 0.8;
+    color: $white2-color;
+  }
+  70% {
+    color: $primary-color;
+  }
+
+  100% {
+    color: #66fcf1;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fadeUpSubTitleWorks {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeUpWorksLi {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

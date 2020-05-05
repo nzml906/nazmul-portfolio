@@ -1,0 +1,27 @@
+.up-btn {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 3rem;
+  position: absolute;
+  z-index: 40;
+  bottom: calc(15.4rem - 2rem);
+  left: calc(50% - 2rem);
+  background: $page-grey-dim;
+  border: 2px solid $page-white;
+  color: $page-white;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+
+  &--icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-left: 0.1rem solid $page-white;
+    border-top: 0.1rem solid $page-white;
+    transform: rotate(45deg) translate(0.3rem, 0.3rem);
+  }
+}

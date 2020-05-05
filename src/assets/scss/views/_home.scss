@@ -1,0 +1,144 @@
+.home-container {
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+  background: $page-grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+
+  &__title {
+    color: $page-orange;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    display: flex;
+
+    @include tablet {
+      font-size: 1rem;
+    }
+
+    &__fullname {
+      font-family: $font-Montserrat;
+      display: flex;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+      color: $page-white;
+    }
+
+    @for $i from 1 through 5 {
+      span:nth-child(#{$i}) {
+        display: block;
+        opacity: 0;
+        animation: fadeDownHello 0.8s ease-in-out forwards;
+        animation-delay: #{0.1 * $i}s;
+      }
+    }
+  }
+
+  &--description {
+    color: rgba($color: $page-white, $alpha: 0.7);
+    padding: 0 15px 0 15px;
+
+    @include tablet {
+      max-width: 90%;
+    }
+    @include desktop {
+      max-width: 55%;
+    }
+    h2 {
+      font-weight: 200;
+      opacity: 0;
+      animation: fadeUpDescription 0.3s ease-in-out forwards;
+      animation-delay: 1s;
+      font-size: 2rem;
+      line-height: 2.8rem;
+    }
+  }
+}
+
+.home-btn {
+  @include btn($page-grey, $page-white);
+}
+
+@keyframes fadeDownHello {
+  0% {
+    opacity: 0;
+    color: $white2-color;
+    transform: translateY(-40px);
+  }
+  35% {
+    opacity: 0.8;
+    color: $white2-color;
+  }
+  70% {
+    color: $secondary-dark-color;
+  }
+
+  100% {
+    color: $white1-color;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeUpDescription {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes socialIconsAppears {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  50% {
+    opacity: 1;
+    background: $secondary-dark-color;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cubeAppear {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+@include tablet {
+  @keyframes cubeAppear {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 300px;
+    }
+  }
+}
+
+@include desktop {
+  @keyframes cubeAppear {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 400px;
+    }
+  }
+}

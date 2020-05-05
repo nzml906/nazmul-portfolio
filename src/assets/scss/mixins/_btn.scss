@@ -1,0 +1,31 @@
+@mixin btn($bg, $color) {
+  opacity: 0;
+  animation: fadeUpBtnCourses 0.3s ease-in-out forwards;
+  animation-delay: 1.3s;
+  border: 1px solid $page-orange;
+  border-radius: 0.6rem;
+  outline: none;
+  padding: 1rem 2.3rem;
+  background: $bg;
+  color: $color;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  font-family: $font-Montserrat;
+  font-size: 1.6rem;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@keyframes fadeUpBtnCourses {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

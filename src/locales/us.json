@@ -1,0 +1,35 @@
+{
+  "message": {
+    "nav": {
+      "intro": "home",
+      "skills": "skills",
+      "portfolio": "portfolio",
+      "touch": "Get in Touch"
+    },
+    "home": {
+      "msg": "<h2>Hello, I'am <span class='text-regular'>Nazmul Ahmed</span>,&nbsp;a software engineer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</h2>",
+      "btn": "view portfolio"
+    },
+    "skills": {
+      "sub": "Soft Skills",
+      "ul": {
+        "li1": "Mobile First, Responsive Design.",
+        "li2": "Browser Developer Tools.",
+        "li3": "Empathy.",
+        "li4": "Good Communitation.",
+        "li5": "Willingness to Learn.",
+        "li6": "Flexible and Adaptable.",
+        "li7": "Work Under Pressure"
+      },
+      "btn": "Tools",
+      "sub2": "Programmings Languages, Frameworks and Tools"
+    },
+    "portfolio": {
+      "sub": "Personal Projects",
+      "btn": "Projects",
+      "details": "See Details",
+      "view": "View Project",
+      "viewGithub": "View Github"
+    }
+  }
+}
