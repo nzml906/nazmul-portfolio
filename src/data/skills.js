@@ -22,13 +22,18 @@ const skills = [
   },
   {
     id: '3',
-    title: 'HTML',
-    skill: ['PSD to HTML', 'Responsive Website']
+    title: 'Database',
+    skill: ['Firebase', 'CRUD']
   },
   {
     id: '5',
     title: 'WORKFLOW',
     skill: ['Github', 'Webpack', 'NPM', 'VS code']
+  },
+  {
+    id: '6',
+    title: 'HTML',
+    skill: ['PSD to HTML', 'Responsive Website']
   }
 ];
 

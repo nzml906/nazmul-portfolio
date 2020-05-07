@@ -1,5 +1,13 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/MlwuLaW.png',
+    id: '0',
+    titulo: 'vue-crud',
+    linkGithub: 'https://github.com/nzml906/vue-crud',
+    linkSitio: 'https://nzml906.github.io/vue-crud/#/',
+    skills: ['vue', 'firebase', 'CRUD']
+  },
+  {
     img: 'https://i.imgur.com/t94dErV.png',
     id: '1',
     titulo: 'vue-shop',
