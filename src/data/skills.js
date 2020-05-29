@@ -1,5 +1,40 @@
 const skills = [
   {
+    id: '4',
+    title: 'Vue.js',
+    skill: [
+      'PSD to Vue',
+      'Vue Router',
+      'Vuex',
+      'Vue CLI',
+      'Vuetify',
+      'Axios',
+      'Single Page Application SPA',
+      'Progressive Web Application PWA'
+    ]
+  },
+  {
+    id: '7',
+    title: 'Node.js',
+    skill: [
+      'Node MVC',
+      'MongoDB',
+      'Mongoose',
+      'Express js',
+      'RESTful APIs',
+      'authentication',
+      'authorization',
+      'JWT-token',
+      'middleware',
+      'Axios'
+    ]
+  },
+  {
+    id: '3',
+    title: 'Database',
+    skill: ['MongoDB', 'Mongoose', 'Firebase']
+  },
+  {
     id: '1',
     title: 'CSS',
     skill: [
@@ -13,22 +48,19 @@ const skills = [
   {
     id: '2',
     title: 'JAVASCRIPT',
-    skill: ['OOP Programming', 'ES6+', 'DOM manipulation', 'Ajax', 'Web API']
+    skill: [
+      'OOP Programming',
+      'ES6+',
+      'DOM manipulation',
+      'Ajax',
+      'RESTful APIs'
+    ]
   },
-  {
-    id: '4',
-    title: 'Vue.js',
-    skill: ['Vue Router', 'Vuex', 'Vuetify', 'Axios']
-  },
-  {
-    id: '3',
-    title: 'Database',
-    skill: ['Firebase', 'CRUD']
-  },
+
   {
     id: '5',
     title: 'WORKFLOW',
-    skill: ['Github', 'Webpack', 'NPM', 'VS code']
+    skill: ['Git', 'Github', 'Webpack', 'Babel', 'NPM', 'VS code']
   },
   {
     id: '6',
