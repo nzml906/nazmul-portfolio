@@ -1,8 +1,16 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/Q8kzZoH.png',
+    id: '7',
+    titulo: 'Vue todo application',
+    linkGithub: 'https://github.com/nzml906/vue-todo',
+    linkSitio: 'https://nzml906.github.io/vue-todo/#/',
+    skills: ['Vue', 'Vuex', 'PWA', 'Task lists']
+  },
+  {
     img: 'https://i.imgur.com/mm3nuwb.png',
-    id: '5',
-    titulo: 'MEVN-chat',
+    id: '6',
+    titulo: 'Realtime-chat',
     linkGithub: 'https://github.com/nzml906/MEVN-realtime-chat',
     linkSitio: 'https://fierce-dawn-90847.herokuapp.com/',
     skills: [
