@@ -1,5 +1,37 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/dl4jBVn.png',
+    id: '10',
+    titulo: 'bootstrap-ui-portfolio',
+    linkGithub: 'https://github.com/nzml906/bootstrap-ui-portfolio',
+    linkSitio: 'https://nzml906.github.io/bootstrap-ui-portfolio/#/',
+    skills: [
+      'bootstrap4',
+      'html',
+      'css',
+      'scss',
+      'Web-UI',
+      'Figma design',
+      'PSD to HTML'
+    ]
+  },
+  {
+    img: 'https://i.imgur.com/RyyOFUo.png',
+    id: '9',
+    titulo: 'PSD to HTML',
+    linkGithub: 'https://github.com/nzml906/PSD2HTML_Natours_',
+    linkSitio: 'https://nzml906.github.io/natours-vue/',
+    skills: ['html', 'css', 'scss', 'Web-UI', 'Figma design', 'PSD to HTML']
+  },
+  {
+    img: 'https://i.imgur.com/kJ7osgJ.png',
+    id: '8',
+    titulo: 'PSD to HTML',
+    linkGithub: 'https://github.com/nzml906/PSD2HTML_Trillo_',
+    linkSitio: 'https://nzml906.github.io/trillo-ui/',
+    skills: ['html', 'css', 'scss', 'Web-UI', 'Figma design', 'PSD to HTML']
+  },
+  {
     img: 'https://i.imgur.com/Q8kzZoH.png',
     id: '7',
     titulo: 'Vue todo application',
@@ -56,7 +88,7 @@ const projects = [
   },
   {
     img: 'https://i.imgur.com/t94dErV.png',
-    id: '1',
+    id: '3',
     titulo: 'vue-shop',
     linkGithub: 'https://github.com/nzml906/vue-shopping',
     linkSitio: 'https://nzml906.github.io/vue-shopping/',
@@ -72,7 +104,7 @@ const projects = [
   },
   {
     img: 'https://i.imgur.com/aQvEdsf.png',
-    id: '3',
+    id: '1',
     titulo: 'nexter-real-estate',
     linkGithub: 'https://github.com/nzml906/nexter-real-estate',
     linkSitio: 'https://nzml906.github.io/nexter-real-estate/#/',
