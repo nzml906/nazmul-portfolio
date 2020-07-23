@@ -1,5 +1,22 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/MREOLfQ.png',
+    id: '11',
+    titulo: 'Admin-UI',
+    linkGithub: 'https://github.com/nzml906/star-admin',
+    linkSitio: 'https://nzml906.github.io/star-admin/#/',
+    skills: [
+      'bootstrap4',
+      'bootstrap-vue',
+      'html',
+      'css',
+      'scss',
+      'Web-UI',
+      'Figma design',
+      'PSD to HTML'
+    ]
+  },
+  {
     img: 'https://i.imgur.com/dl4jBVn.png',
     id: '10',
     titulo: 'bootstrap-ui-portfolio',
