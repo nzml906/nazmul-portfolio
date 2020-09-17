@@ -1,5 +1,28 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/c3BNEq2.png',
+    id: '12',
+    titulo: 'COVID-19',
+    linkGithub: 'https://github.com/nzml906/COVID-19',
+    linkSitio: 'https://nzml906.github.io/COVID-19/',
+    skills: [
+      'vue js',
+      'axios',
+      'chart js',
+      'vue chart-js',
+      'bootstrap',
+      'restful-webservices'
+    ]
+  },
+  {
+    img: 'https://i.imgur.com/Q8kzZoH.png',
+    id: '7',
+    titulo: 'Vue todo application',
+    linkGithub: 'https://github.com/nzml906/vue-todo',
+    linkSitio: 'https://nzml906.github.io/vue-todo/#/',
+    skills: ['Vue', 'Vuex', 'PWA', 'Task lists']
+  },
+  {
     img: 'https://i.imgur.com/MREOLfQ.png',
     id: '11',
     titulo: 'Admin-UI',
@@ -32,6 +55,7 @@ const projects = [
       'PSD to HTML'
     ]
   },
+
   {
     img: 'https://i.imgur.com/RyyOFUo.png',
     id: '9',
@@ -47,14 +71,6 @@ const projects = [
     linkGithub: 'https://github.com/nzml906/PSD2HTML_Trillo_',
     linkSitio: 'https://nzml906.github.io/trillo-ui/',
     skills: ['html', 'css', 'scss', 'Web-UI', 'Figma design', 'PSD to HTML']
-  },
-  {
-    img: 'https://i.imgur.com/Q8kzZoH.png',
-    id: '7',
-    titulo: 'Vue todo application',
-    linkGithub: 'https://github.com/nzml906/vue-todo',
-    linkSitio: 'https://nzml906.github.io/vue-todo/#/',
-    skills: ['Vue', 'Vuex', 'PWA', 'Task lists']
   },
   {
     img: 'https://i.imgur.com/mm3nuwb.png',
