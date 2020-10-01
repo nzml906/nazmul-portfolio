@@ -1,6 +1,7 @@
 <template>
   <div class="portfolio-container">
     <div id="proyectos">
+      <!-- title -->
       <div class="portfolio-container__head">
         <h1>Some projects</h1>
       </div>
@@ -18,9 +19,16 @@
             <!--porto-img-->
             <figure class="Desk-folio-image">
               <a @click="projectModal(project)">
-                <v-lazy-image
+                <!-- <v-lazy-image
                   class="lazy-img"
                   :src="project.img"
+                  src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
+                /> -->
+
+                <img
+                  :src="project.img"
+                  alt=""
+                  class="lazy-img"
                   src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
                 />
                 <div class="img-overlay">
@@ -59,9 +67,16 @@
           :key="index"
         >
           <figure class="portfolio-container__mobile--item--img">
-            <v-lazy-image
+            <!-- <v-lazy-image
               class="lazy-img"
               :src="project.img"
+              src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
+            /> -->
+
+            <img
+              :src="project.img"
+              alt=""
+              class="lazy-img"
               src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
             />
           </figure>

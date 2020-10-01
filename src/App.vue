@@ -3,6 +3,7 @@
     <!--navbar-->
     <div id="nav" class="desk-nav-menu">
       <ul class="desk-nav-menu__nav">
+        <!-- home -->
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -12,6 +13,7 @@
             >{{ $t('message.nav.intro') }}</router-link
           >
         </li>
+        <!-- skills -->
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -21,6 +23,7 @@
             >{{ $t('message.nav.skills') }}</router-link
           >
         </li>
+        <!-- portfolio -->
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -33,7 +36,7 @@
       </ul>
     </div>
 
-    <!--router-view-->
+    <!--body-->
     <transition name="pageToggle" mode="out-in">
       <router-view />
     </transition>

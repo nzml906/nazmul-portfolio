@@ -1,5 +1,20 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/nskjLXC.png',
+    id: '13',
+    titulo: 'COVID-19-react',
+    linkGithub: 'https://github.com/nzml906/COVID-19-react',
+    linkSitio: 'https://nzml906.github.io/COVID-19-react/',
+    skills: [
+      'react js',
+      'axios',
+      'chart js',
+      'react chart-js',
+      'react metarial UI',
+      'restful-webservices'
+    ]
+  },
+  {
     img: 'https://i.imgur.com/c3BNEq2.png',
     id: '12',
     titulo: 'COVID-19',
@@ -39,21 +54,30 @@ const projects = [
       'PSD to HTML'
     ]
   },
+  // {
+  //   img: 'https://i.imgur.com/dl4jBVn.png',
+  //   id: '10',
+  //   titulo: 'bootstrap-ui-portfolio',
+  //   linkGithub: 'https://github.com/nzml906/bootstrap-ui-portfolio',
+  //   linkSitio: 'https://nzml906.github.io/bootstrap-ui-portfolio/#/',
+  //   skills: [
+  //     'bootstrap4',
+  //     'html',
+  //     'css',
+  //     'scss',
+  //     'Web-UI',
+  //     'Figma design',
+  //     'PSD to HTML'
+  //   ]
+  // },
+
   {
-    img: 'https://i.imgur.com/dl4jBVn.png',
+    img: 'https://i.imgur.com/XH6PTqR.png',
     id: '10',
-    titulo: 'bootstrap-ui-portfolio',
-    linkGithub: 'https://github.com/nzml906/bootstrap-ui-portfolio',
-    linkSitio: 'https://nzml906.github.io/bootstrap-ui-portfolio/#/',
-    skills: [
-      'bootstrap4',
-      'html',
-      'css',
-      'scss',
-      'Web-UI',
-      'Figma design',
-      'PSD to HTML'
-    ]
+    titulo: 'TechForing Landing page',
+    linkGithub: 'https://github.com/nzml906/foring',
+    linkSitio: 'https://nzml906.github.io/foring/',
+    skills: ['Bootstrap 4.5', 'scss', 'PSD to HTML']
   },
 
   {
@@ -127,14 +151,14 @@ const projects = [
     linkSitio: 'https://nzml906.github.io/vue-shopping/',
     skills: ['vue', 'vuex', 'scss', 'Shopping cart']
   },
-  {
-    img: 'https://i.imgur.com/xsLgY4Z.png',
-    id: '2',
-    titulo: 'vue-news',
-    linkGithub: 'https://github.com/nzml906/vue-news',
-    linkSitio: 'https://nzml906.github.io/vue-news/',
-    skills: ['vue', 'axios', 'api']
-  },
+  // {
+  //   img: 'https://i.imgur.com/xsLgY4Z.png',
+  //   id: '2',
+  //   titulo: 'vue-news',
+  //   linkGithub: 'https://github.com/nzml906/vue-news',
+  //   linkSitio: 'https://nzml906.github.io/vue-news/',
+  //   skills: ['vue', 'axios', 'api']
+  // },
   {
     img: 'https://i.imgur.com/aQvEdsf.png',
     id: '1',

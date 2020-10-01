@@ -3,8 +3,7 @@
     "nav": {
       "intro": "home",
       "skills": "skills",
-      "portfolio": "portfolio",
-      "touch": "Get in Touch"
+      "portfolio": "portfolio"
     },
     "home": {
       "msg": "<h2>Hello, I'am <span class='text-regular'>Nazmul Ahmed</span>,&nbsp;a software engineer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</h2>",
