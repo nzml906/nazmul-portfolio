@@ -1,5 +1,13 @@
 const projects = [
   {
+    img: 'https://i.imgur.com/uwjNJNX.png',
+    id: '14',
+    titulo: 'Dev-MeetUp',
+    linkGithub: 'https://github.com/nzml906/dev-meetup',
+    linkSitio: 'https://nzml906.github.io/dev-meetup/#/',
+    skills: ['vue js', 'vuex', 'vuetify', 'firebase']
+  },
+  {
     img: 'https://i.imgur.com/nskjLXC.png',
     id: '13',
     titulo: 'COVID-19-react',
