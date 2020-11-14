@@ -3,7 +3,6 @@
     <!--navbar-->
     <div id="nav" class="desk-nav-menu">
       <ul class="desk-nav-menu__nav">
-        <!-- home -->
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -13,7 +12,7 @@
             >{{ $t('message.nav.intro') }}</router-link
           >
         </li>
-        <!-- skills -->
+
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -23,14 +22,34 @@
             >{{ $t('message.nav.skills') }}</router-link
           >
         </li>
-        <!-- portfolio -->
+
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
-            to="/portfolio"
+            to="/vue"
             @click.native="bodyColor('#414657')"
             exact
-            >{{ $t('message.nav.portfolio') }}</router-link
+            >{{ $t('message.nav.vue') }}</router-link
+          >
+        </li>
+
+        <li class="desk-nav-menu__nav--link">
+          <router-link
+            class="route-link"
+            to="/react"
+            @click.native="bodyColor('#414657')"
+            exact
+            >{{ $t('message.nav.React') }}</router-link
+          >
+        </li>
+
+        <li class="desk-nav-menu__nav--link">
+          <router-link
+            class="route-link"
+            to="/psd"
+            @click.native="bodyColor('#414657')"
+            exact
+            >{{ $t('message.nav.PSD') }}</router-link
           >
         </li>
       </ul>
@@ -78,12 +97,31 @@
                 >{{ $t('message.nav.skills') }}</router-link
               >
             </li>
+
             <li class="mob-nav-menu__nav--list--link">
               <router-link
                 class="route-link"
-                to="/portfolio"
+                to="/vue"
                 @click.native="closeMobNav('#414657')"
-                >{{ $t('message.nav.portfolio') }}</router-link
+                >{{ $t('message.nav.vue') }}</router-link
+              >
+            </li>
+
+            <li class="mob-nav-menu__nav--list--link">
+              <router-link
+                class="route-link"
+                to="/react"
+                @click.native="closeMobNav('#414657')"
+                >{{ $t('message.nav.React') }}</router-link
+              >
+            </li>
+
+            <li class="mob-nav-menu__nav--list--link">
+              <router-link
+                class="route-link"
+                to="/psd"
+                @click.native="closeMobNav('#414657')"
+                >{{ $t('message.nav.PSD') }}</router-link
               >
             </li>
           </ul>
@@ -140,7 +178,7 @@ export default {
         { property: 'og:url', content: 'https://malbonm07.github.io' },
         { property: 'og:image', content: 'https://i.imgur.com/ZoQbreu.png' },
         { property: 'og:description', content: 'Front End Developer' },
-        //twitter card.
+
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:site', content: 'https://malbonm07.github.io' },
         {

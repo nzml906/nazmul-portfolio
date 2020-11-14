@@ -7,7 +7,7 @@ import i18n from './i18n';
 
 import '@/assets/scss/main.scss';
 
-require('intersection-observer');
+// require('intersection-observer');
 
 window.addEventListener('resize', () => {
   let vh = window.innerHeight * 0.01;

@@ -1,7 +1,7 @@
 @mixin btn($bg, $color) {
   opacity: 0;
-  animation: fadeUpBtnCourses 0.3s ease-in-out forwards;
-  animation-delay: 1.3s;
+  animation: fadeUpBtnCourses 0.1s ease-in-out forwards;
+  animation-delay: 0.8s;
   border: 1px solid $page-orange;
   border-radius: 0.6rem;
   outline: none;

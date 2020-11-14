@@ -1,9 +1,8 @@
 <template>
   <div class="portfolio-container">
     <div id="proyectos">
-      <!-- title -->
       <div class="portfolio-container__head">
-        <h1>Some projects</h1>
+        <h1>PSD to HTML projects</h1>
       </div>
 
       <!--desk-portfolio-->
@@ -19,12 +18,6 @@
             <!--porto-img-->
             <figure class="Desk-folio-image">
               <a @click="projectModal(project)">
-                <!-- <v-lazy-image
-                  class="lazy-img"
-                  :src="project.img"
-                  src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
-                /> -->
-
                 <img
                   :src="project.img"
                   alt=""
@@ -67,12 +60,6 @@
           :key="index"
         >
           <figure class="portfolio-container__mobile--item--img">
-            <!-- <v-lazy-image
-              class="lazy-img"
-              :src="project.img"
-              src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
-            /> -->
-
             <img
               :src="project.img"
               alt=""
@@ -171,8 +158,8 @@
 </template>
 
 <script>
-import projects from '@/data/projects.js';
-import Footer from '@/components/Footer.vue';
+import projects from '@/data/psd';
+import Footer from '@/components/Footer';
 
 export default {
   components: {

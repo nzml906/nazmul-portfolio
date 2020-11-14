@@ -17,12 +17,32 @@ const routes = [
     component: () => import('../views/Skills.vue')
   },
   {
-    path: '/portfolio',
+    path: '/vue',
     component: EmptyViewComponent,
     children: [
       {
         path: '',
-        component: () => import('../views/Portfolio.vue')
+        component: () => import('../views/Vue.vue')
+      }
+    ]
+  },
+  {
+    path: '/react',
+    component: EmptyViewComponent,
+    children: [
+      {
+        path: '',
+        component: () => import('../views/React.vue')
+      }
+    ]
+  },
+  {
+    path: '/psd',
+    component: EmptyViewComponent,
+    children: [
+      {
+        path: '',
+        component: () => import('../views/PSD.vue')
       }
     ]
   }
