@@ -37,3 +37,21 @@ npm run build
 ```
 serve -s dist
 ```
+
+### Deploy to gh-pages
+
+```
+git push origin master
+```
+
+```
+add vue.config.js
+```
+
+```
+add deploy.sh
+```
+
+```
+bash deploy.sh
+```
