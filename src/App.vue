@@ -12,7 +12,6 @@
             >{{ $t('message.nav.intro') }}</router-link
           >
         </li>
-
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -22,17 +21,6 @@
             >{{ $t('message.nav.skills') }}</router-link
           >
         </li>
-
-        <li class="desk-nav-menu__nav--link">
-          <router-link
-            class="route-link"
-            to="/vue"
-            @click.native="bodyColor('#414657')"
-            exact
-            >{{ $t('message.nav.vue') }}</router-link
-          >
-        </li>
-
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
@@ -42,7 +30,15 @@
             >{{ $t('message.nav.React') }}</router-link
           >
         </li>
-
+        <li class="desk-nav-menu__nav--link">
+          <router-link
+            class="route-link"
+            to="/vue"
+            @click.native="bodyColor('#414657')"
+            exact
+            >{{ $t('message.nav.vue') }}</router-link
+          >
+        </li>
         <li class="desk-nav-menu__nav--link">
           <router-link
             class="route-link"
