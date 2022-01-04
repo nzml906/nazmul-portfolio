@@ -1,4 +1,4 @@
-# Project-portfolio
+# My-portfolio
 
 ## Project setup
 
