@@ -12,15 +12,15 @@
 
     <div class="footer__details text-center text-light">
       Designed by Nazmul Ahmed, 2020. &nbsp;
-      <a>sajib906@gmail.com</a>
+      <a>nzml444@gmail.com</a>
     </div>
 
     <nav class="footer__social-icons">
-      <a href="https://twitter.com/sajib906" target="_blank" class="icon-link">
+      <a href="https://twitter.com/nzml777" target="_blank" class="icon-link">
         <font-awesome-icon :icon="['fab', 'twitter']" />
       </a>
       <a
-        href="https://www.facebook.com/sajib906"
+        href="https://www.facebook.com/nzml777"
         target="_blank"
         class="icon-link"
       >
