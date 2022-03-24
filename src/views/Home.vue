@@ -1,7 +1,7 @@
 <template>
   <div class="home-container">
     <div class="home-container__title">
-      <h1 class="fw-100">FRONT-END DEVELOPER</h1>
+      <h1 class="fw-100">Software Engineer</h1>
     </div>
 
     <div class="home-container__title__fullname">
